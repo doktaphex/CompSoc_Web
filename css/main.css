@@ -1,0 +1,23 @@
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+
+header.comsoc_head{
+    background-color:black;
+}
+
+body{
+	background-color:silver;
+}
+
+h1.comsoc_h1{
+	font-family:helvetica;
+	font-size:30px;
+	color:white;
+}
+
+h2.comsoc_h2{
+	font-family:helvetica;
+	font-size:20px;
+	color:white;
+}
