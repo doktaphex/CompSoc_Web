@@ -1,6 +1,7 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 }
+
 #site{
 	width:100%;
 	max-width:1100px;
@@ -14,21 +15,39 @@ header.comsoc_head{
 }
 
 body{
+	margin-left:auto;
+	margin-right:auto;
 	width:100%;
 	max-width:1100px;
 	background-color:white;
 }
 
+#metlogo{
+	display:inline;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:2%;
+}
+
+#octocat{
+	display:inline;
+	width:10%;
+	height:10%;
+}
 h1.comsoc_h1{
+	display:inline;
 	font-family:helvetica;
-	font-size:30px;
+	font-size:80px;
 	color:white;
+	text-shadow:0px 0px 30px #752B95;
 }
 
 h2.comsoc_h2{
 	font-family:helvetica;
-	font-size:20px;
+	font-size:30px;
 	color:white;
+	text-shadow:0px 0px 30px #752B95;
+	text-align:center;
 }
 
 li.link{
@@ -44,5 +63,14 @@ li.link{
 	font-family:helvetica;
 	font-size:small;
 	color:silver;
+	text-align:center;
+}
+
+.article_h1{
+	padding:2%;
+	display:inline-block;
+	font-family:helvetica;
+	font-size:30px;
+	color:black;
 	text-align:center;
 }
