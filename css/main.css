@@ -1,13 +1,22 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 }
+#site{
+	width:100%;
+	max-width:1100px;
+	background-color:silver;
+}
 
 header.comsoc_head{
+	width:100%;
+	max-width:1100px;
 	background-color:black;
 }
 
 body{
-	background-color:silver;
+	width:100%;
+	max-width:1100px;
+	background-color:white;
 }
 
 h1.comsoc_h1{
@@ -20,4 +29,12 @@ h2.comsoc_h2{
 	font-family:helvetica;
 	font-size:20px;
 	color:white;
+}
+
+li.link{
+	display:inline;
+	padding:3%;
+	font-family:helvitica;
+	font-size:15px;
+	color:brown;
 }
