@@ -38,3 +38,11 @@ li.link{
 	font-size:15px;
 	color:brown;
 }
+
+#comsoc_foot{
+	background-color:black;
+	font-family:helvetica;
+	font-size:small;
+	color:silver;
+	text-align:center;
+}
